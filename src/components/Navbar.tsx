@@ -67,9 +67,10 @@ export default function Navbar() {
           </Box>
 
           {/* Search Bar */}
-          <Box sx={{ display: 'flex', alignItems: 'center', backgroundColor: '#f0f0f0', borderRadius: 1, padding: '0 10px' }}>
-            <SearchIcon />
+          <Box sx={{ display: 'flex', alignItems: 'center', backgroundColor: '#f0f0f0', borderRadius: 1, padding: '0 10px' , width:'20%'}}>
+            
             <InputBase placeholder="Search for products..." />
+            <SearchIcon />
           </Box>
 
           {/* Cart and Account Icons */}
